@@ -1,0 +1,152 @@
+
+#principal {
+	width: 950px;
+	color: #838383;
+	margin:auto;
+			
+}
+
+/* Barra de Rolagem */
+
+/* Fundo que corre */
+::-webkit-scrollbar-track {
+    background-color: #838383
+}
+/* Fundo que corre */
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+
+/* Linha que desce */
+::-webkit-scrollbar-thumb {
+    background: #232C3B;
+    border-radius: 15px;
+}
+/* Linha que desce*/
+
+
+/* Corpo Site */
+
+#navegacao {
+	width: 930px;
+	background: #f3f3f3;
+	border-bottom: 1px solid #d8d8d8;
+	top: 2px;
+	margin:auto;
+}
+
+
+body {
+	font-size: 15px;
+	font-family: "Century Gothic", Helvetica, sans-serif;
+	background: #f3f3f3;
+}
+
+
+
+
+#logo {
+	float: left;
+	margin:3px 0px 10px 10px;
+	
+	
+	
+}
+
+#icone{
+	
+	float: right;
+	padding: 6px;
+	margin: 5px;
+	
+	
+}
+
+#menu {
+	float: right;
+	padding: 5px;
+	margin: 5px;
+
+}
+
+#postagem {
+	background: #f3f3f3;
+	padding: 5px;
+	margin: 5px;
+	font-family: "Century Gothic", Helvetica, sans-serif;
+	width: 538px;
+	float:left;
+	color: #838383;
+	
+}
+
+
+
+.clear{
+	clear: both;
+	
+}
+
+
+/*Classes*/
+ 
+.imagem-galeria {
+	background: #f4f4f4;
+	width: 150px;
+	padding: 5px;
+	float: left;
+	margin: 15px;
+	border-bottom: 1px solid #d8d8d8;
+	
+	
+	
+}
+
+.img {
+
+	border-radius: 10px;
+	box-shadow: inset -20px 20px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: inset -20px 20px rgba(0, 0, 0, 0.6);
+}
+
+.img-postagem{
+	float: left;
+	margin:0 10px 5px 0;
+}
+
+
+.clear{
+	clear: both;
+		
+}
+
+
+
+/****************************************************
+***********************Formatação do menu************/
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+/*Links não visitados*/
+a:link {
+	color: #838383;
+}
+
+/*Links vistados*/
+a:visited {
+	color: #838383;
+}
+
+/*Links hover*/
+a:hover {
+	color: #fff;
+	background: #ff5600;
+
+}
+
+
+
+
